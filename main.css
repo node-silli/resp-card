@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images//pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 23%;
+  height: 75%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.card .payment-btn {
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 8%;
+  width: 90%;
+  background-color: #3829e0;
+  -webkit-box-shadow: 2px 5px 3px rgba(0, 0, 255, 0.171);
+  box-shadow: 2px 5px 3px rgba(0, 0, 255, 0.171);
+}
+
+.card .payment-btn :hover {
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  background-color: #3a179b;
+}
+
+.card .payment-btn button {
+  border-radius: 15px;
+  font-family: "Red Hat Display", sans-serif;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #3829e0;
+}
+
+.card .card-img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 100%;
+  height: 35%;
+  background-image: url("./images/illustration-hero.svg");
+}
+
+.card .card-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 23%;
+  color: #1f2f56;
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
+}
+
+.card .card-description h2 {
+  font-weight: 700;
+}
+
+.card .card-description p {
+  font-size: 14px;
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.card .card-pricing-outer {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card .card-pricing-outer .card-pricing-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  height: 55%;
+  background-color: rgba(128, 128, 128, 0.24);
+  border-radius: 8px;
+}
+
+.card .card-pricing-outer .card-pricing-inner .icon {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.card .card-pricing-outer .card-pricing-inner .icon img {
+  width: 40px;
+}
+
+.card .card-pricing-outer .card-pricing-inner .middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: 90%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.card .card-pricing-outer .card-pricing-inner .middle h2 {
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.card .card-pricing-outer .card-pricing-inner .middle p {
+  color: #7280a7;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 13px;
+}
+
+.card .card-pricing-outer .card-pricing-inner .link {
+  margin-left: 14px;
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 12px;
+}
+
+.card .card-pricing-outer .card-pricing-inner .link a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 6px;
+  width: 100%;
+  height: 9%;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.footer p {
+  font-size: 12px;
+  color: #d3d6df;
+  font-weight: 600;
+}
+
+.footer :hover {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  color: black;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 90%;
+    height: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 80%;
+    height: 80%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
